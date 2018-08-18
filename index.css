@@ -1,0 +1,90 @@
+/** {
+  outline: 2px solid pink;
+}
+*/
+
+
+.navbar {
+    margin-bottom: 30px;
+}
+
+.navbar img{
+    width: 50px;
+}
+
+.card {
+    display: inline-block;
+    width: 100%;
+    margin: 5px 5px;
+    border: none;
+}
+
+.card-img-top{
+    width: 115px;
+    vertical-align: top;
+}
+
+.card-body {
+    width: 65%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 0.25rem;
+}
+
+.h5, h5 {
+    font-size: small;
+}
+
+.card-title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-bottom: 0.25rem;
+}
+a {
+    display: inline-block;
+    margin: 0px 10px;
+}
+p {
+    font-size: 13px;
+    margin-top: 0;
+    margin-bottom: 0.25rem;
+    color: gray;
+}
+
+.card-body img {
+    width: 25px;
+}
+.btn {
+    padding: .2rem .4rem;
+    font-size: 0.7rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+    
+ }
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { 
+    
+ }
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { 
+    
+ }
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+    
+ }
