@@ -1,12 +1,10 @@
-/** {
+/* {
   outline: 2px solid pink;
-}
-*/
+}*/
 
 
-.navbar {
-    margin-bottom: 30px;
-}
+
+
 
 .navbar img{
     width: 50px;
@@ -18,6 +16,7 @@
     margin: 5px 5px;
     border: none;
     padding: 0px 0px;
+    min-width: 300px;
 }
 
 .card-img-top{
@@ -68,12 +67,62 @@ p {
     background-color: #e8e8e8;
 }
 
+.login {
+    width: 90%;
+    margin: 10px 20px;
+    font-size: 35px;
+    min-width: 350px;
+}
 
+.modal-title img{
+    width: 100%;
+}
 
+label {
+    font-size: 20px;
+    display: inline-block;
+    margin-bottom: .5rem;
+    font-weight: bold;
+}
 
+.modal-content {
+    padding: 5px;
+    margin: 5px;
+    width: 95%;
+}
 
+.loginbutton {
+    padding: 10px 30px;
+    font-size: 30px;
+    border: none;
+    width: 100%;
+}
 
+.modal-body .card-body {
+    width: 100%;
+}
 
+#profilepageimg {
+    width: 50%;
+    margin: auto;
+}
+
+.carousel {
+    margin: 10px;
+}
+
+.carousel-inner {
+    height: 260px;
+}
+
+#webicon {
+    width: 100%;
+    border: 1px solid gray;
+}
+
+#webiconimg {
+    width: 25px;
+}
 
 
 
