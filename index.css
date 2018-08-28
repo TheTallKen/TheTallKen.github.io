@@ -2,9 +2,10 @@
   outline: 2px solid pink;
 }
 
-
-
-
+body {
+    min-width: 320px;
+    width: 100%;
+}
 
 .navbar img{
     width: 50px;
@@ -16,16 +17,17 @@
     margin: 5px 5px;
     border: none;
     padding: 0px 0px;
-    min-width: 300px;
+    
 }
 
 .card-img-top{
-    width: 115px;
+    width: 25%;
     vertical-align: top;
+    
 }
 
 .card-body {
-    width: 65%;
+    width: 73%;
     display: inline-block;
     vertical-align: top;
     padding: 0.25rem;
@@ -71,7 +73,6 @@ p {
     width: 90%;
     margin: 10px 20px;
     font-size: 35px;
-    min-width: 350px;
 }
 
 .modal-title img{
@@ -124,32 +125,51 @@ label {
     width: 25px;
 }
 
-@media (min-width: 1px) {
-    .row #left, #right {
+@media (max-width: 575px) {
+    .row #left {
         display: none;
     }
-    #main {
-        
+    .row  #right{
+        display: none;
     }
-
+    #main  {
+        width: 100%;
+    }
 }
 
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
-    
+    .row #left {
+        display: none;
+    }
+    #main {
+        width: 70%;
+    }
+    .row right {
+        width: 30%;
+    }
  }
 
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) { 
+    .row #left {
+        display: none;
+    }
     
  }
 
 /* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) { 
+    .row #left {
+        display: none;
+    }
     
  }
 
 /* Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) { 
+    .row #left {
+        display: none;
+    }
     
  }
